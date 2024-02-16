@@ -3,22 +3,25 @@
     padding:0;
     box-sizing: border-box;
 }
-
-.main{
-    /* margin: 0 auto; */
-    margin-top: 40px;
+body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.main, .footer{
+    /* margin: 0 auto; */
+    margin-top: 40px;
+
 }
 
 .box{
     height: 80vh;
-    width: 80vw;
-    border: 1px solid red;
+    width: 80vw;    
     background-image: url("/resources/Banner\ Image.png") ;
-    background-size: contain;
-    background-color: rgb(184, 178, 178);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +43,64 @@
 .largeText{
     font-size:50px;
     font-weight: 800;
+}
+
+.schedule{
+    height: 40vh;
+    width: 80vw; 
+    border: 5px solid red;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(7, 2, 17);
+    color: #fff;
+    width: 80vw;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    
+}
+
+.socialIcon{
+    height: 40px;
+    width: 30px;
+    margin-right: 15px;
+}
+
+
+.footerFirstSection{
+    /* background-color: aqua; */
+    display: flex;
+    text-align: center;
+
+    /* padding: 80px; */
+
+}
+.footerLeft,.footerRight{
+    flex: 1;
+}
+
+
+.footerSecondSection{
+    /* background-color: rgb(51, 255, 0); */
+    display: flex;
+    align-self: center;
+    margin: 30px;
+
+}
+.footerThirdSection{
+    /* background-color: red; */
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
