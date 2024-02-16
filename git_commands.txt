@@ -1,0 +1,7 @@
+echo "# b9a1_new_year_new_mission" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sabbasachiPH/b9a1_new_year_new_mission.git
+git push -u origin main
