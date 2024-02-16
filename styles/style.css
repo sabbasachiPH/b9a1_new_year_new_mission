@@ -45,16 +45,83 @@ body{
     font-weight: 800;
 }
 
+.discount{
+    text-align: center;
+}
+.discount > p{
+    color: #ff0000;
+}
+
+.midNightParty{
+    height: 80vh;
+    width: 80vw;    
+    background-image: url("/resources/Vectorrr.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.midNightPartyText{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(17, 16, 16, 0.6);
+    color: #fff;
+    z-index: 2;    
+}
+
+.midNightLeftText{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 5%;
+
+}
+
+.midNightPartyImg{
+    flex:1;
+    height: 100%;
+    width: 100%;
+}
+.midNightLargeText{
+    font-weight: 800;
+    font-size: 60px;
+}
+.midNightbtn{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+
+}
 .schedule{
-    height: 40vh;
+    height: 50vh;
     width: 80vw; 
-    border: 5px solid red;
     margin: 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, hsla(308, 83%, 49%, 0.267), #ffffff);
+}
+
+.prefix{
+    color: hsl(0, 100%, 50%);
+    font-weight: 700;
+}
+
+.joinBtn{
+    background: #ff0000;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 .footer{
